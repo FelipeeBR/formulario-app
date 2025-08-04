@@ -1,0 +1,74 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f9f9f9;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid #09d65f;
+    border-radius: 10px;
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.alert {
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+    background: #09d65f;
+    border-radius: 6px;
+    color: #fff;
+    padding: 12px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+    text-align: left;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #09d65f;
+    box-shadow: 0 0 5px rgba(9, 214, 95, 0.4);
+}
+
+.form-button {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #09d65f;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form-button:hover {
+    background: #07b857;
+}
